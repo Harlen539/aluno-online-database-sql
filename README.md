@@ -111,7 +111,13 @@ CREATE DATABASE aluno_online;
 
 ### 2. Executar o script SQL
 
-Importe e execute o arquivo `.sql` no DBeaver.
+Execute os scripts SQL na seguinte sequência:
+
+🧱 Tabelas
+👁️ Views
+🔁 Trigger
+🧪 Dados
+🧫 Teste
 
 ---
 
