@@ -1,9 +1,4 @@
--- =========================================================
--- 05 - BANCO DE HOMOLOGAÇÃO: MODELAGEM DIMENSIONAL
--- Execute este CREATE DATABASE fora do banco, se necessário:
--- CREATE DATABASE aluno_online_homologacao;
--- Depois conecte no banco aluno_online_homologacao e execute o restante.
--- =========================================================
+
 
 DROP TABLE IF EXISTS fato_desempenho_aluno CASCADE;
 DROP TABLE IF EXISTS dim_tempo CASCADE;
