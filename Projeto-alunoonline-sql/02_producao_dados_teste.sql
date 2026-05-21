@@ -1,6 +1,4 @@
--- =========================================================
--- 02 - BANCO DE PRODUÇÃO: DADOS DE TESTE
--- =========================================================
+
 
 INSERT INTO alunos (nome, email, cpf, data_nascimento) VALUES
 ('Harlen Galdino', 'harlen@email.com', '12345678900', '2003-05-10'),
