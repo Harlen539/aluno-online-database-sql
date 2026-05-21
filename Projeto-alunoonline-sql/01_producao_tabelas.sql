@@ -1,11 +1,4 @@
--- =========================================================
--- 01 - BANCO DE PRODUÇÃO: TABELAS RELACIONAIS
--- PostgreSQL
--- =========================================================
 
--- Execute este CREATE DATABASE fora do banco, se necessário:
--- CREATE DATABASE aluno_online_producao;
--- Depois conecte no banco aluno_online_producao e execute o restante.
 
 DROP TABLE IF EXISTS matriculas CASCADE;
 DROP TABLE IF EXISTS disciplinas CASCADE;
