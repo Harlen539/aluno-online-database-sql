@@ -1,8 +1,4 @@
--- =========================================================
--- 06 - BANCO DE HOMOLOGAÇÃO: PROCEDURE DE CARGA DIMENSIONAL
--- Este script usa postgres_fdw para ler as views do banco de produção.
--- Ajuste host, dbname, user e password conforme seu ambiente.
--- =========================================================
+
 
 CREATE EXTENSION IF NOT EXISTS postgres_fdw;
 
