@@ -1,7 +1,4 @@
--- =========================================================
--- 03 - BANCO DE PRODUÇÃO: VIEWS OBRIGATÓRIAS
--- Estas views servem como camada de consulta e origem para a carga dimensional.
--- =========================================================
+
 
 CREATE OR REPLACE VIEW vw_alunos_info AS
 SELECT
