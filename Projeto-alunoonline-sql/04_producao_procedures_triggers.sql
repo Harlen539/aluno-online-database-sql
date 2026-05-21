@@ -1,8 +1,4 @@
--- =========================================================
--- 04 - BANCO DE PRODUÇÃO: PROCEDURES + TRIGGERS
--- Segundo assunto usado em sala: PROCEDURES
--- Extra: trigger para automatizar atualização de data e situação.
--- =========================================================
+
 
 CREATE OR REPLACE FUNCTION fn_atualiza_data_matricula()
 RETURNS TRIGGER AS $$
