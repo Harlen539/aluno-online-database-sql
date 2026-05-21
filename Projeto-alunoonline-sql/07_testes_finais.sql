@@ -1,14 +1,10 @@
--- =========================================================
--- 07 - TESTES FINAIS
--- =========================================================
 
--- No banco aluno_online_producao:
+
 SELECT * FROM vw_alunos_info;
 SELECT * FROM vw_matriculas_completa;
 CALL prc_atualizar_desempenho_matricula(2, 7.50, 85.00);
 SELECT * FROM vw_matriculas_completa WHERE matricula_id = 2;
 
--- No banco aluno_online_homologacao:
 CALL prc_carregar_modelo_dimensional();
 SELECT * FROM dim_aluno;
 SELECT * FROM dim_curso;
@@ -16,7 +12,6 @@ SELECT * FROM dim_disciplina;
 SELECT * FROM dim_tempo;
 SELECT * FROM fato_desempenho_aluno;
 
--- Relatório dimensional exemplo:
 SELECT
     dc.nome AS curso,
     dd.nome AS disciplina,
